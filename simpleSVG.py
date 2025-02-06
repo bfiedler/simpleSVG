@@ -455,7 +455,7 @@ else: #Python version 3.0 no longer supports long integers
 
 #following is from
 # http://www.ubookcase.com/book/Oreilly/Python.Cookbook.2nd.edition/0596007973/pythoncook2-chp-4-sect-6.html
-# changed name flatten -> flatten to avoid namespace conflicts
+# changed name flatten -> flattn to avoid namespace conflicts
 #-----
 def list_or_tuple(x):
     return isinstance(x, (list, tuple))
